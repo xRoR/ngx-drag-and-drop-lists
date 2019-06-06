@@ -8,7 +8,7 @@
     "build": "npm run ngc && node ./scripts/copy-package",
     "publishPackage": "npm run build && cd dist && npm publish",
     "dev": "tsc --watch",
-    "postinstall": "tsc"
+    "postinstall": ""
   },
   "repository": {
     "type": "git",
